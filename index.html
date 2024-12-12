@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BikeWale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">BikeWale</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Bikes</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Compare</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Find Your Perfect Bike</h1>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search for bikes..." onkeyup="searchBike()">
+            <button onclick="searchBike()">Search</button>
+        </div>
+    </section>
+
+    <!-- Compare Bikes Section -->
+     <!-- Compare Bikes Section -->
+<section class="compare-bikes">
+    <h2>Compare Your Favorite Bikes</h2>
+    <p>Select two or more bikes to compare features, price, and performance.</p>
+    <button class="compare-btn">Start Comparing</button>
+    <div class="search-results"></div> <!-- Container for search results -->
+</section>
+
+
+    <!-- Brands Section -->
+    <section class="brands">
+        <h2>Top Brands</h2>
+        <div class="brand-container">
+            <div class="brand">Honda</div>
+            <div class="brand">Yamaha</div>
+            <div class="brand">Royal Enfield</div>
+            <div class="brand">KTM</div>
+            <div class="brand">Bajaj</div>
+            <div class="brand">TVS</div>
+            <div class="brand">Suzuki</div>
+        </div>
+    </section>
+
+    <!-- Mileage Section -->
+    <section class="mileage">
+        <h2>Bikes by Mileage</h2>
+        <div class="mileage-list">
+            <div class="mileage-item">Mileage 50-60 kmpl</div>
+            <div class="mileage-item">Mileage 60-70 kmpl</div>
+            <div class="mileage-item">Mileage 70+ kmpl</div>
+        </div>
+    </section>
+
+    <!-- Body Style Section -->
+    <section class="bodystyle">
+        <h2>Choose Your Bike Body Style</h2>
+        <div class="bodystyle-list">
+            <div class="bodystyle-item">Sports</div>
+            <div class="bodystyle-item">Cruiser</div>
+            <div class="bodystyle-item">Naked</div>
+            <div class="bodystyle-item">Tourer</div>
+            <div class="bodystyle-item">Scooter</div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <h2>Customer Reviews</h2>
+        <div class="review-container">
+            <div class="review">
+                <h3>Honda CB350 - Great Experience</h3>
+                <p>"The Honda CB350 is smooth and powerful. Perfect for city rides and highways."</p>
+                <span>- Rahul Sinha</span>
+            </div>
+            <div class="review">
+                <h3>Yamaha FZ - Excellent Performance</h3>
+                <p>"I've been using the Yamaha FZ for over a year now, and it's been a fantastic bike."</p>
+                <span>- Anjali Verma</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-us">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Address</h3>
+                <p>123, BikeWale Lane, City, Country</p>
+            </div>
+            <div class="contact-info">
+                <h3>Email</h3>
+                <p>support@bikewale.com</p>
+            </div>
+            <div class="contact-info">
+                <h3>Phone</h3>
+                <p>+123-456-7890</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">About Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact</a>
+            </div>
+            <p>&copy; 2024 BikeWale. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Font Awesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
